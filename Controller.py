@@ -7,11 +7,11 @@ while(True):
     i = int(inp.Variable())
     match i:
         case 1: 
-            print(cl.Calc(inp.Reader("Ir")))
+            print("Ответ: " + cl.Calc(inp.Reader("Ir")))
             Iface.Intface("End")
             if(int(inp.Variable()) == 2): break
         case 2: 
-            print(cl.Calc(inp.Reader("Comp")))
+            print("Ответ: " + cl.Calc(inp.Reader("Comp")))
             Iface.Intface("End")
             if(int(inp.Variable()) == 2): break
         case 3: print('Будет разработано когданибудь')

@@ -6,8 +6,8 @@ def Reader(i:str):
         case "Ir":
             return [input('Введите математическое выражение: ')]
         case "Comp":
-            x = complex(input('Введите первое значение: '))
-            y = complex(input('Введите второе значение: '))
+            x = input('Введите первое значение: ')
+            y = input('Введите второе значение: ')
             z = input('Введите знак операции: ')
             match z:
                 case "+": return [x,'+',y]
