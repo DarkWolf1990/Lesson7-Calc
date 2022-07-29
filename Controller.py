@@ -11,7 +11,7 @@ while(True):
             Iface.Intface("End")
             if(int(inp.Variable()) == 2): break
         case 2: 
-            print("Ответ: " + cl.Calc(inp.Reader("Comp")))
+            print(f'Ответ: {cl.Calc(inp.Reader("Comp"))}')
             Iface.Intface("End")
             if(int(inp.Variable()) == 2): break
         case 3: print('Будет разработано когданибудь')
