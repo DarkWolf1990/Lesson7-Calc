@@ -5,8 +5,8 @@ def Calc (ls):
         return round(eval(ls[0]),3)
     else:
         match ls[0][1]:
-            case "+": return complex(ls[0][0])+complex(ls[0][2])
-            case "-": return complex(ls[0][0])-complex(ls[0][2])
-            case "*": return complex(ls[0][0])*complex(ls[0][2])
-            case "/": return complex(ls[0][0])/complex(ls[0][2])
-            case "^": return complex(ls[0][0])**complex(ls[0][2])
+            case "+": return ls[0][0]+ls[0][2]
+            case "-": return ls[0][0]-ls[0][2]
+            case "*": return ls[0][0]*ls[0][2]
+            case "/": return ls[0][0]/ls[0][2]
+            case "^": return ls[0][0]**ls[0][2]
