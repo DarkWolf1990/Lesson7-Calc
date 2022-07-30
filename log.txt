@@ -1,8 +1,9 @@
-2022-07-30 18:38:22,161 -DEBUG - ^)^
-2022-07-30 18:38:22,162 -DEBUG - <function Reader at 0x000001F367951EA0>
-2022-07-30 18:38:22,162 -DEBUG - <function Intface at 0x000001F367951C60>
-2022-07-30 18:38:22,162 -ERROR - ZerodivisionError
+2022-07-30 19:43:46,656 -DEBUG - ^)^
+2022-07-30 19:43:46,657 -DEBUG - <function Reader at 0x00000185B98FB760>
+2022-07-30 19:43:46,657 -DEBUG - <function Intface at 0x00000185B98FB520>
+2022-07-30 19:43:46,657 -ERROR - ZerodivisionError
 Traceback (most recent call last):
   File "c:\Users\white\OneDrive\Рабочий стол\git_education\Python_practicum\HomeWork\Lesson7-Calc\logger.py", line 28, in <module>
     1 / 0
 ZeroDivisionError: division by zero
+2022-07-30 19:43:46,658 -DEBUG - Info message??))

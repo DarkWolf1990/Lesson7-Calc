@@ -7,3 +7,24 @@
 2022-07-30 18:38:22,161 - __main__ - DEBUG - ^)^
 2022-07-30 18:38:22,162 - __main__ - DEBUG - <function Reader at 0x000001F367951EA0>
 2022-07-30 18:38:22,162 - __main__ - DEBUG - <function Intface at 0x000001F367951C60>
+2022-07-30 19:38:36,044 - logger - DEBUG - ^)^
+2022-07-30 19:38:36,044 - logger - DEBUG - <function Reader at 0x0000019E34C0B880>
+2022-07-30 19:38:36,044 - logger - DEBUG - <function Intface at 0x0000019E34C0B640>
+2022-07-30 19:39:07,633 - logger - DEBUG - ^)^
+2022-07-30 19:39:07,633 - logger - DEBUG - <function Reader at 0x000002C34F42B6D0>
+2022-07-30 19:39:07,633 - logger - DEBUG - <function Intface at 0x000002C34F42B490>
+2022-07-30 19:39:35,396 - logger - DEBUG - ^)^
+2022-07-30 19:39:35,397 - logger - DEBUG - <function Reader at 0x00000240148EB6D0>
+2022-07-30 19:39:35,397 - logger - DEBUG - <function Intface at 0x00000240148EB490>
+2022-07-30 19:40:02,361 - logger - DEBUG - ^)^
+2022-07-30 19:40:02,362 - logger - DEBUG - <function Reader at 0x00000264C6CCB6D0>
+2022-07-30 19:40:02,362 - logger - DEBUG - <function Intface at 0x00000264C6CCB490>
+2022-07-30 19:42:03,217 - logger - DEBUG - ^)^
+2022-07-30 19:42:03,218 - logger - DEBUG - <function Reader at 0x000002ED5F5CB760>
+2022-07-30 19:42:03,218 - logger - DEBUG - <function Intface at 0x000002ED5F5CB520>
+2022-07-30 19:43:37,649 - logger - DEBUG - ^)^
+2022-07-30 19:43:37,649 - logger - DEBUG - <function Reader at 0x000002823C28B760>
+2022-07-30 19:43:37,649 - logger - DEBUG - <function Intface at 0x000002823C28B520>
+2022-07-30 19:43:46,656 - logger - DEBUG - ^)^
+2022-07-30 19:43:46,657 - logger - DEBUG - <function Reader at 0x00000185B98FB760>
+2022-07-30 19:43:46,657 - logger - DEBUG - <function Intface at 0x00000185B98FB520>
