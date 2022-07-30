@@ -1,0 +1,3 @@
+2022-07-30 17:31:06,216 - __main__ - DEBUG - ^)^
+2022-07-30 17:31:06,217 - __main__ - DEBUG - <function Reader at 0x0000023690D3DE10>
+2022-07-30 17:31:06,217 - __main__ - DEBUG - <function Intface at 0x0000023690D3DBD0>
