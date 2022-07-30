@@ -23,6 +23,11 @@ logger.debug(Reader)
 logger.debug(Intface)
 
 
+# думаю нужно еще сделать обработчик исключений
+try:
+  1 / 0
+except ZeroDivisionError as e:
+  logging.exception("ZerodivisionError")
 
 
 

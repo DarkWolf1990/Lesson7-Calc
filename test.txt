@@ -1,3 +1,9 @@
 2022-07-30 17:31:06,216 - __main__ - DEBUG - ^)^
 2022-07-30 17:31:06,217 - __main__ - DEBUG - <function Reader at 0x0000023690D3DE10>
 2022-07-30 17:31:06,217 - __main__ - DEBUG - <function Intface at 0x0000023690D3DBD0>
+2022-07-30 18:09:56,169 - __main__ - DEBUG - ^)^
+2022-07-30 18:09:56,170 - __main__ - DEBUG - <function Reader at 0x000002A7E8F82560>
+2022-07-30 18:09:56,170 - __main__ - DEBUG - <function Intface at 0x000002A7E8F82320>
+2022-07-30 18:38:22,161 - __main__ - DEBUG - ^)^
+2022-07-30 18:38:22,162 - __main__ - DEBUG - <function Reader at 0x000001F367951EA0>
+2022-07-30 18:38:22,162 - __main__ - DEBUG - <function Intface at 0x000001F367951C60>

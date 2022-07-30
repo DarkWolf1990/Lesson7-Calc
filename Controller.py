@@ -14,7 +14,7 @@ while(True):
             print(f'Ответ: {cl.Calc(inp.Reader("Comp"))}')
             Iface.Intface("End")
             if(int(inp.Variable()) == 2): break
-        case 3: print('Будет разработано когданибудь')
+        case 3: print('Будет разработано когда-нибудь')
         case 4: 
             print('Запущен выход из программы')
             break
