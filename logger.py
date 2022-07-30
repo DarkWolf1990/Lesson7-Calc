@@ -1,25 +1,19 @@
-from datetime import datetime as dt
-from time import time 
+# подключаем стандартную функцию логирования
+import logging
+import Calculator
+import Interface
+# задаем базовую конфигурацию и выводим логи в файл(файлик у нас будет
+# перезаписываться внося новые данные), также
+# добавляем сразу дату и время,
+logging.basicConfig(level=logging.INFO, filename="log.txt", filemode ="w",
+                    format ="%(asctime)s -%(levelname)s - %(message)s")
+# это уровни журналаб выше в коде также сделана настройка журналов
 
-def _______________logger(data):
-  time = dt.now().strftime('%H:%M')
-  with open('log.txt', 'a') as file:
-    file.write('{}; __________________;{}\n'
-                .format(time, data))
-    
-    
-def ___________logger(data):
-  time = dt.now().strftime('%H:%M')
-  with open('log.txt', 'a') as file:
-    file.write('{}; ________;{}\n'
-                .format(time, data))
-        
-        
-def ______________logger(data):
-  time = dt.now().strftime('%H:%M')
-  with open('log.txt', 'a') as file:
-    file.write('{}; ****;{}\n'
-                .format(time, data))
-    
-    
-    esase gui
+# Использую канкатинацию, чтобы склеить строки, 
+# также передаю в лог подключенные файлы.
+logging.info(f"{Calculator}")
+logging.debug("info")
+logging.warning("warning")
+logging.error("error")
+logging.critical(f"{Interface}")
+
