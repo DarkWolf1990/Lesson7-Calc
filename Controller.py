@@ -1,21 +1,44 @@
+from asyncio.log import logger
 import Interface as Iface
 import Inpt as inp
 import Calculator as cl
+import output as ou
+import logger as lg
+
 Iface.Intface("Welcome")
+lg.fopen('a')
+
 while(True):
     Iface.Intface("Menu")
     i = int(inp.Variable())
     match i:
         case 1: 
-            print("Ответ: " + cl.Calc(inp.Reader("Ir")))
+            ou.plog("Mode",i)
+            vrb = inp.Reader("Ir")
+            ou.plog("Variables",vrb[0])
+            ou.plog("Result",str(cl.Calc(vrb)))
             Iface.Intface("End")
-            if(int(inp.Variable()) == 2): break
-        case 2: 
-            print(f'Ответ: {cl.Calc(inp.Reader("Comp"))}')
+            if(int(inp.Variable()) == 2): 
+                ou.plog("Exit")
+                break
+        case 2:
+            ou.plog("Mode",i)
+            vrb = inp.Reader("Comp")
+            ou.plog("Variables","("+ vrb[0]+")"+vrb[1]+"("+ vrb[2]+")")
+            ou.plog("Result",str(cl.Calc(vrb)))
             Iface.Intface("End")
-            if(int(inp.Variable()) == 2): break
-        case 3: print('Будет разработано когда-нибудь')
-        case 4: 
+            if(int(inp.Variable()) == 2): 
+                ou.plog("Exit")
+                break
+        case 3:
+            ou.plog("Mode",i)
+            ou.viewlog()
+            Iface.Intface("End")
+            if(int(inp.Variable()) == 2): 
+                ou.plog("Exit")
+                break
+        case 4:
+            ou.plog("Mode",i)
             print('Запущен выход из программы')
             break
         case _: print("Нет данных")
